@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(239, 237, 80, 0.857);
+}
+.buttons {
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 300px;
+}
