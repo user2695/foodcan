@@ -7,9 +7,11 @@ import "../styles/header.css";
 
 function Header() {
   return (
-    <div className="header">
-      <Logo />
-      <Name />
+    <div className="container">
+      <div className="header">
+        <Logo />
+        <Name />
+      </div>
       <div className="buttons">
         <LoginButton />
         <SignupButton />
