@@ -12,9 +12,9 @@ function App() {
   ];
 
   const containerStyles = {
-    width: "500px",
-    height: "280px",
-    margin: "0 auto",
+    width: "1080px",
+    height: "480px",
+    margin: "2rem auto",
   };
 
   return (
