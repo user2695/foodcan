@@ -1,11 +1,10 @@
 .container {
   display: flex;
   justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(70, 162, 87, 0.857);
 }
 .header {
-  background-color: rgba(239, 237, 80, 0.857);
-}
-.buttons {
-  display: flex;
-  justify-content: end;
+  padding-left: 10px;
 }

@@ -1,6 +1,8 @@
 .logo {
-  /* margin: 5px; */
-  /* padding: 5px; */
-  height: 50px;
+  height: 45px;
   width: 50px;
+  transform: rotate(25deg);
+  position: fixed;
+  margin: -24px;
+  margin-top: -8px;
 }

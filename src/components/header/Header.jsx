@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import "../styles/buttons.css";
 import LoginButton from "./LoginButton";
 import SignupButton from "./SignupButton";
 import Name from "./Name";
@@ -9,8 +10,8 @@ function Header() {
   return (
     <div className="container">
       <div className="header">
-        <Logo />
         <Name />
+        <Logo />
       </div>
       <div className="buttons">
         <LoginButton />
