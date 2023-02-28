@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import ImageSlider from "./components/carousal/ImageSlider";
 import Footer from "./components/footer/Footer";
+import "./App.css";
 function App() {
   const slides = [
     { url: "http://localhost:3000/image1.jpg" },
