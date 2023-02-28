@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import ImageSlider from "./components/carousal/ImageSlider";
 import Footer from "./components/footer/Footer";
 import "./App.css";
+import Card from "./components/cards/card"
 function App() {
   const slides = [
     { url: "http://localhost:3000/image1.jpg" },
@@ -25,6 +26,7 @@ function App() {
         <ImageSlider slides={slides} />
       </div>
       <div>
+        <Card />
         <Footer />
       </div>
     </div>
