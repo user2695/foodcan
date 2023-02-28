@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import ImageSlider from "./components/carousal/ImageSlider";
-
+import Footer from "./components/footer/Footer";
 function App() {
   const slides = [
     { url: "http://localhost:3000/image1.jpg" },
@@ -22,6 +22,9 @@ function App() {
       <Header />
       <div style={containerStyles}>
         <ImageSlider slides={slides} />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
