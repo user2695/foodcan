@@ -1,0 +1,31 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 239, 114);
+  border-radius: 10px;
+  margin: 5% 30%;
+  padding: 20px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+.button {
+  margin-right: 20px;
+  border-radius: 4px;
+  background-color: crimson;
+  color: whitesmoke;
+  border-color: rgb(227, 48, 48);
+  height: 40px;
+  width: 80px;
+  font-size: 18px;
+}
+
+input {
+  padding: 2px;
+  margin: 2px;
+}

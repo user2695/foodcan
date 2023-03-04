@@ -10,11 +10,12 @@
   width: 300px;
   padding: 10px;
   margin: 10px;
-  background-color: rgba(63, 232, 51, 0.373);
+  background-color: rgba(46, 39, 18, 0.71);
   border-radius: 9px;
   border: 1px solid rgba(125, 25, 25, 0.41);
 }
 h1 {
+  color: rgb(122, 97, 16);
   margin-top: 80px;
   margin-bottom: 10px;
   font-size: 40px;
@@ -33,13 +34,15 @@ h3 {
   font-family: "Pacifico", cursive;
   font-size: medium;
   text-align: center;
+  color: rgba(255, 255, 255, 0.656);
 }
 h2 {
   font-family: "Pacifico", cursive;
+  color: white;
 }
 .cardbtn {
-  background-color: rgba(47, 182, 85, 0.527);
-  border: 2px solid green;
+  background-color: rgba(238, 246, 14, 0.819);
+  border: 2px solid rgb(220, 243, 9);
   font-family: "Pacifico", cursive;
   border-radius: 4px;
   padding: 3px 5px;

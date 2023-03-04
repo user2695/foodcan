@@ -3,7 +3,11 @@ import Header from "./components/header/Header";
 import ImageSlider from "./components/carousal/ImageSlider";
 import Footer from "./components/footer/Footer";
 import "./App.css";
-import Card from "./components/cards/card"
+import Card from "./components/cards/card";
+import Signup from "./components/signup/Signup";
+import Login from "./components/login/Login";
+import Cart from "./components/cart/Cart";
+
 function App() {
   const slides = [
     { url: "http://localhost:3000/image1.jpg" },
@@ -28,6 +32,9 @@ function App() {
       <div>
         <Card />
         <Footer />
+        <Signup />
+        <Login />
+        <Cart />
       </div>
     </div>
   );
